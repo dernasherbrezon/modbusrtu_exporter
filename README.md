@@ -2,6 +2,8 @@
 
 Prometheus exporter for Modbus protocol. Support direct RTU connections
 
+![grafana](docs/grafana.png)
+
 ## Configuration
 
 Sample configuration can be found in the config.properties at ```./src/main/resources/config.properties```. The important option is ```server.collector```. This option defines how registers will be read from the device and interpreted. Currently supported collectors:
